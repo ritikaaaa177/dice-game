@@ -36,6 +36,16 @@ rolldice.addEventListener("click", function () {
     activeplayer = activeplayer === 0 ? 1 : 0;
     player0.classList.toggle("player--active");
     player1.classList.toggle("player--active");
+
+    //Instead of using toggle we can also do this.
+
+    //  if (activeplayer == 1) {
+    //   player1.classList.add("player--active");
+    //   player0.classList.remove("player--active");
+    // } else {
+    //   player0.classList.add("player--active");
+    //   player1.classList.remove("player--active");
+    // }
   }
 });
 
