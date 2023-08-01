@@ -10,7 +10,6 @@ const player0 = document.querySelector(".player--0");
 const player1 = document.querySelector(".player--1");
 
 let currentscore = 0;
-let scores = [0, 0];
 let activeplayer = 0;
 score0.textContent = 0;
 score1.textContent = 0;
