@@ -28,6 +28,8 @@ rolldice.addEventListener("click", function () {
     document.getElementById(`current--${activeplayer}`).textContent =
       currentscore;
 
+
+    //Instead of using the dynamic approach above we can also do this.
     // player1currentscore.textContent = currentscore;
     console.log(player1currentscore.textContent);
   } else {
